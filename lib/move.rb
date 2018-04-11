@@ -9,4 +9,8 @@ end
 # code your input_to_index and move method here!
 def input_to_index(str)
  str.to_i - 1
+end
+
+def move(display_board , index , value)
+    display_board[index] = value
 end 
